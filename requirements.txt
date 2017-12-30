@@ -1,0 +1,4 @@
+Flask==0.12.2
+pandas==0.21.1
+PyOrgMode==0.03c
+GitPython==2.1.8
