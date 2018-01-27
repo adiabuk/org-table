@@ -84,7 +84,7 @@ def main():
         background_thread.start()
     except (KeyboardInterrupt, SystemExit):
         sys.exit(1)
-    APP.run(debug=True, threaded=True)
+    APP.run(host="0.0.0.0", debug=True, threaded=True)
 
 if __name__ == '__main__':
     main()
